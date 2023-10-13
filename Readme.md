@@ -20,7 +20,7 @@ Create a new Python script and copy the provided code into it.
 
 Create a .env file in the same directory as your script and add the following lines:
 ```
-URL=https:your_url
+URL=https:your_exchange_url
 BOT_TOKEN=your_bot_token
 CHAT_ID=your_chat_id
 ```
