@@ -8,7 +8,7 @@ import asyncio
 # Load environment variables from .env file
 load_dotenv()
 
-url = os.getenv("URL")
+url = os.getenv("EXCHANGE_URL")
 response = requests.get(url)
 
 if response.status_code == 200:

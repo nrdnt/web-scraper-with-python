@@ -6,7 +6,7 @@
 
 The code you provided is a Python script for scraping data from a website and sending it as a message using the Telegram Bot API. It uses the requests library to send an HTTP request to the specified URL and the BeautifulSoup library to parse the HTML content of the response.
 
-To use this code, you need to have the following libraries installed: requests, beautifulsoup4, python-telegram-bot, and python-dotenv. You also need to create a .env file in the same directory as your script and provide the required environment variables: URL, BOT_TOKEN, and CHAT_ID.
+To use this code, you need to have the following libraries installed: requests, beautifulsoup4, python-telegram-bot, and python-dotenv. You also need to create a .env file in the same directory as your script and provide the required environment variables: EXCHANGE_URL, BOT_TOKEN, and CHAT_ID.
 
 Here are the steps to use this code:
 
