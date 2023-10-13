@@ -1,4 +1,7 @@
+# Requirements
 
+- python 11.3
+- pip3 
 # Explanation
 
 The code you provided is a Python script for scraping data from a website and sending it as a message using the Telegram Bot API. It uses the requests library to send an HTTP request to the specified URL and the BeautifulSoup library to parse the HTML content of the response.
@@ -10,7 +13,7 @@ Here are the steps to use this code:
 Install the required libraries by running the following command:
 
 ```
-pip install requests beautifulsoup4 python-telegram-bot python-dotenv
+pip3 install requests beautifulsoup4 python-telegram-bot python-dotenv 
 ```
 
 Create a new Python script and copy the provided code into it.
